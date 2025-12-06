@@ -1,0 +1,51 @@
+name: guardian
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Map
+  google_maps_flutter: ^2.13.1
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.0
+  flutter_map_location_marker: ^10.1.0
+
+  # Utils
+  http: ^1.5.0
+  location: ^8.0.1
+  card_animation_hover: ^0.0.2
+
+  # Firebase
+  firebase_core: ^4.2.0
+  firebase_database: ^12.0.3
+
+  # UI / Animations
+  animated_widgets_flutter: ^1.1.1+2
+  font_awesome_flutter: ^10.12.0
+  google_fonts: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/App_logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/

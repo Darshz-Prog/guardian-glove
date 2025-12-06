@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "154736637237",
+    "project_id": "mapcords-8c556",
+    "storage_bucket": "mapcords-8c556.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154736637237:android:ef027a21ad8203287f087c",
+        "android_client_info": {
+          "package_name": "com.example.guardian"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW8XcIiE4Wk3Mzw59eF5J2Xl9N9eUw_9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
