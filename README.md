@@ -1,117 +1,108 @@
-# 🧤 Guardian Glove
+# Guardian Glove
 
-Guardian Glove is a **smart wearable safety system** built using **Flutter and Arduino**. It connects real-world hardware sensing with a modern mobile application to provide **real-time monitoring, alerts, and visualization**.
-
-This project integrates **embedded systems + mobile development + IoT-style communication** into one complete working solution.
+Guardian Glove is a lightweight wearable monitoring system combining Arduino-based sensing with a Flutter application. It delivers real-time data visualization, event detection, and wireless communication for safety and research applications.
 
 ---
 
-## 🚀 Features
+## Overview
 
-- ✅ Real-time sensor data transmission
-- ✅ Emergency detection & alert system
-- ✅ Flutter-based mobile application
-- ✅ Arduino-powered wearable device
-- ✅ Wireless communication between glove and phone
-- ✅ Clean and responsive UI
-- ✅ Cross-platform support
+The system captures sensor data from a glove-mounted hardware module, processes it on an Arduino, and streams it to a cross-platform Flutter application. The app provides live monitoring, threshold-based alerts, and structured data output.
 
 ---
 
-## 🛠️ Technologies Used
+## Key Features
 
-### Mobile Application
-- Flutter
-- Dart
-- Material UI
+- Real-time sensor data acquisition  
+- Wireless data transmission  
+- Event and anomaly detection  
+- Cross-platform Flutter application  
+- Modular and extensible hardware design  
+- Support for multiple sensor types  
 
-### Embedded System
-- Arduino
-- Sensors (motion, pressure, temperature, etc.)
-- Serial / Bluetooth / WiFi Communication
+---
+
+## Applications
+
+- Personal and workplace safety  
+- Health and movement monitoring  
+- Wearable prototyping  
+- IoT research and development  
+
+---
+
+## Project Goal
+
+To provide a simple and scalable wearable platform capable of real-time sensing, wireless communication, and multi-platform visualization.
+
+---
+
+## Technology Stack
+
+### Hardware
+- Arduino  
+- Motion and environmental sensors  
+- Bluetooth / WiFi communication  
+
+### Software
+- Flutter  
+- Dart  
 
 ### Supported Platforms
-- Android
-- iOS
-- Web
-- Windows
-- Linux
-- macOS
+- Android  
+- iOS  
+- Web  
+- Windows  
+- Linux  
+- macOS  
 
 ---
 
-## 📁 Project Structure
+## Architecture
 
+1. Hardware sensors collect continuous data.  
+2. Arduino preprocesses and packages sensor readings.  
+3. The data is transmitted wirelessly to the mobile device.  
+4. The Flutter app visualizes readings and manages alert logic.  
+
+---
+
+## Directory Structure
+
+```
 guardian-glove/
-│
-├── lib/
-├── assets/
+├── lib/                 # Flutter source code
+├── assets/              # App assets
+├── Guardion-Glove/      # Arduino firmware
 ├── android/
 ├── ios/
 ├── web/
 ├── windows/
 ├── linux/
 ├── macos/
-├── Guardion-Glove/
 ├── test/
 ├── pubspec.yaml
 └── README.md
+```
 
 ---
 
-## ⚙️ How the System Works
+## Setup Instructions
 
-1. Sensors mounted on the glove collect real-world data.
-2. Arduino processes the data and transmits it wirelessly.
-3. The Flutter app receives the data in real time.
-4. The app visualizes the data and triggers alerts during critical conditions.
-This creates a **complete real-time safety monitoring pipeline**.
-
----
-
-## 📲 Flutter Setup
-
+### Flutter
 ```bash
 flutter doctor
 flutter pub get
 flutter run
-🔌 Arduino Setup
+```
 
-Open the Guardion-Glove folder in Arduino IDE
-Select the correct board and port
-Upload the firmware
-Power the glove hardware
-
-✅ Use Cases
-Personal safety monitoring
-Health tracking
-Industrial worker safety
-Smart wearable research
-IoT prototyping
-
-🎯 Project Objective
-
-To build a real-time intelligent wearable safety system that connects hardware sensing with mobile visualization using modern cross-platform tools.
-
-👨‍💻 Author
-
-Darsh
-GitHub: https://github.com/Darshz-Prog
-
-📜 License
-
-This project is open for learning, development, and research purposes.
-
-⭐ Support
-
-If this project helped you, consider giving it a star on GitHub.
-
+### Arduino
+- Open the firmware folder in Arduino IDE  
+- Select the correct board and communication port  
+- Upload the sketch to the device  
 
 ---
 
-## ✅ Then commit and push that single file
 
-```bash
-git add README.md
-git commit -m "Add project README"
-git push
+## License
+
+Available for educational, research, and development use under [MIT License](LICENSE).
