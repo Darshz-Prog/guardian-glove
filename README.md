@@ -2,13 +2,11 @@
 
 Guardian Glove is a lightweight wearable monitoring system combining Arduino-based sensing with a Flutter application. It delivers real-time data visualization, event detection, and wireless communication for safety and research applications.
 
----
 
 ## Overview
 
 The system captures sensor data from a glove-mounted hardware module, processes it on an Arduino, and streams it to a cross-platform Flutter application. The app provides live monitoring, threshold-based alerts, and structured data output.
 
----
 
 ## Key Features
 
@@ -19,8 +17,6 @@ The system captures sensor data from a glove-mounted hardware module, processes 
 - Modular and extensible hardware design  
 - Support for multiple sensor types  
 
----
-
 ## Applications
 
 - Personal and workplace safety  
@@ -28,13 +24,9 @@ The system captures sensor data from a glove-mounted hardware module, processes 
 - Wearable prototyping  
 - IoT research and development  
 
----
-
 ## Project Goal
 
 To provide a simple and scalable wearable platform capable of real-time sensing, wireless communication, and multi-platform visualization.
-
----
 
 ## Technology Stack
 
@@ -55,16 +47,12 @@ To provide a simple and scalable wearable platform capable of real-time sensing,
 - Linux  
 - macOS  
 
----
-
 ## Architecture
 
 1. Hardware sensors collect continuous data.  
 2. Arduino preprocesses and packages sensor readings.  
 3. The data is transmitted wirelessly to the mobile device.  
 4. The Flutter app visualizes readings and manages alert logic.  
-
----
 
 ## Directory Structure
 
@@ -84,8 +72,6 @@ guardian-glove/
 └── README.md
 ```
 
----
-
 ## Setup Instructions
 
 ### Flutter
@@ -96,12 +82,10 @@ flutter run
 ```
 
 ### Arduino
+
 - Open the firmware folder in Arduino IDE  
 - Select the correct board and communication port  
 - Upload the sketch to the device  
-
----
-
 
 ## License
 
